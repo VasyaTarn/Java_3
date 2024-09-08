@@ -1,6 +1,6 @@
 package com.company.models;
 
-public class Building {
+public abstract class Building {
     protected String address;
 
     protected Building(String address)
@@ -18,5 +18,5 @@ public class Building {
         this.address = address;
     }
 
-    public void printInfo() {}
+    public abstract void printInfo();
 }
